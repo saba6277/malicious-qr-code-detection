@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+
+title: "A Dual Representation Framework for Malicious QR Code Detection Using Fused Feature Learning and Deep Visual Modeling"
+
+message: >
+  If you use this repository in your research,
+  please cite both the repository and the associated manuscript.
+
+type: software
+
+authors:
+  - family-names: Rashid
+    given-names: Saba Hussein
+    orcid: "https://orcid.org/0009-0005-8239-7279"
+
+  - family-names: Ezat
+    given-names: Aya Abdullateef
+
+  - family-names: Rahim
+    given-names: Hiba Hani
+
+  - family-names: Khalid
+    given-names: Noor Walid
+
+repository-code: "https://github.com/saba6277/malicious-qr-code-detection"
+
+license: MIT
+
+keywords:
+  - QR Code
+  - Malware Detection
+  - Computer Vision
+  - Deep Learning
+  - TabNet
+  - MobileNetV2
+  - LightGBM
+  - Image Classification
+
+version: "1.0.0"
+
+date-released: "2026-07-16"

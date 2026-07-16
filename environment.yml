@@ -1,0 +1,34 @@
+name: malicious-qr
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  - numpy
+  - pandas
+  - scipy
+
+  - scikit-learn
+  - matplotlib
+  - pillow
+
+  - jupyter
+  - notebook
+  - ipykernel
+
+  - pip:
+      - tensorflow>=2.19
+      - keras>=3.9
+      - torch>=2.7
+      - torchvision>=0.22
+      - pytorch-tabnet>=4.1
+      - lightgbm>=4.5
+      - opencv-python>=4.10
+      - imagehash>=4.3
+      - tqdm>=4.67
+      - joblib>=1.4
+      - PyYAML>=6.0

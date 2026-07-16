@@ -1,0 +1,46 @@
+# ====================================================
+# A Dual Representation Framework for Malicious QR Code
+# Detection Using Fused Feature Learning and
+# Deep Visual Modeling
+#
+# Python Dependencies
+# ==============================================================================================
+
+# Core scientific computing
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+
+# Machine Learning
+scikit-learn>=1.5
+lightgbm>=4.5
+joblib>=1.4
+
+# Deep Learning
+tensorflow>=2.19
+keras>=3.9
+torch>=2.7
+torchvision>=0.22
+
+# TabNet
+pytorch-tabnet>=4.1
+
+# Computer Vision
+opencv-python>=4.10
+Pillow>=11.0
+imagehash>=4.3
+
+# Data Visualization
+matplotlib>=3.10
+seaborn>=0.13
+
+# Progress Bars
+tqdm>=4.67
+
+# Notebook Environment
+jupyter>=1.1
+notebook>=7.4
+ipykernel>=6.30
+
+# Utilities
+PyYAML>=6.0
