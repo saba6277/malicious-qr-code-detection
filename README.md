@@ -202,6 +202,7 @@ malicious-qr-code-detection/
 
 │   └── 07\_dataset\_validation\_and\_reliability.ipynb
 
+│   └── 08\_artifact\_controlled\_validation.ipynb
 │
 
 ├── README.md
@@ -538,6 +539,7 @@ The notebooks should be executed sequentially because each stage depends on the 
 
 | 7 | 07\_dataset\_validation\_and\_reliability.ipynb | Validation, artifact analysis, and robustness evaluation |
 
+| 8 | 08\_artifact\_controlled\_validation.ipynb | Validation metrics, subset evaluation results |
 
 
 \---
@@ -566,6 +568,7 @@ The repository reproduces all experiments presented in the accompanying manuscri
 
 \- Robustness evaluation
 
+\- Artifact controlled validation
 
 
 Detailed quantitative results are reported in the manuscript.
@@ -629,6 +632,7 @@ The notebooks should be executed in numerical order:
 5. `05_lightgbm_baseline.ipynb`
 6. `06_lightweight_cnn_baseline.ipynb`
 7. `07_dataset_validation_and_reliability.ipynb`
+8. `08_artifact_controlled_validation`
 
 The principal random seed used for reproducible data splitting and model initialization is `42`. Additional model-specific settings are stated directly in the corresponding notebooks.
 
