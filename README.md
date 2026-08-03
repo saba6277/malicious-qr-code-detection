@@ -601,7 +601,42 @@ Experiments were developed and evaluated using:
 
 
 \---
+## Reproducibility
 
+The repository provides the complete experimental pipeline required to reproduce and independently validate the reported results.
+
+Included materials cover:
+
+- dataset preparation and preprocessing;
+- train-validation-test splitting procedures;
+- fixed random seed settings;
+- handcrafted feature extraction and feature fusion;
+- TabNet and MobileNetV2 implementations;
+- LightGBM and lightweight CNN baseline implementations;
+- complete hyperparameter configurations;
+- duplicate-image detection;
+- metadata-leakage verification;
+- dataset artifact analysis;
+- robustness evaluation; and
+- performance evaluation scripts.
+
+The notebooks should be executed in numerical order:
+
+1. `01_dataset_preparation.ipynb`
+2. `02_feature_extraction_and_fusion.ipynb`
+3. `03_tabnet.ipynb`
+4. `04_mobilenetv2.ipynb`
+5. `05_lightgbm_baseline.ipynb`
+6. `06_lightweight_cnn_baseline.ipynb`
+7. `07_dataset_validation_and_reliability.ipynb`
+
+The principal random seed used for reproducible data splitting and model initialization is `42`. Additional model-specific settings are stated directly in the corresponding notebooks.
+
+Runtime may vary according to the available CPU, GPU, memory, software environment, and storage performance. The supplied `requirements.txt` and `environment.yml` files describe the intended software environment.
+
+### Model Checkpoints
+
+The repository provides the complete code required to regenerate the trained models. Where checkpoint files are not stored directly in the repository because of file-size considerations, they may be distributed through a GitHub Release or obtained from the corresponding author upon reasonable request.
 
 
 \## 📖 Citation
