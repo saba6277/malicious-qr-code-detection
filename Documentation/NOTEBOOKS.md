@@ -28,6 +28,8 @@ The repository is organized as a sequential seven-notebook workflow.
 
 | 07\_dataset\_validation\_and\_reliability.ipynb | Dataset validation, artifact analysis, sanity checks, and robustness evaluation |
 
+| 08\_artifact\_controlled\_validation.ipynb |verify the consistency and robustness of the reported performance under different data compositions. |
+
 
 
 The notebooks should be executed sequentially because later notebooks depend on files generated during earlier stages.
